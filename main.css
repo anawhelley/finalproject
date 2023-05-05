@@ -1,0 +1,24 @@
+body {
+    background-color: #E69AC7;
+}
+#canvas {
+    display: flex;
+    width: fit-content;
+    background-color: #E69AC7;
+    margin: 0px;
+}
+.year {
+    height: 100vh;
+    width: 1000px;
+    outline: 1px solid black;
+    display: flex;
+}
+
+.timeline-point {
+    position: absolute;
+    top: 50vh;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    filter: blur(3px);
+}
